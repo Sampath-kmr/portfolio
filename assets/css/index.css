@@ -6,6 +6,7 @@ body{
 .navbar{
     background-color: rgb(97, 234, 85);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;    
     border: 2px solid black;    
@@ -20,6 +21,7 @@ body{
 .navbar-right{
     padding-right: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
@@ -76,3 +78,4 @@ body{
     margin: 10px;
     border: 2px solid white;
 }
+
