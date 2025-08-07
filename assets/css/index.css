@@ -70,12 +70,15 @@ body{
 }
 .service-sub-cont{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .service-card{
     padding: 10px;
     margin: 10px;
     border: 2px solid white;
+    width: 44vh;
+    
 }
 
