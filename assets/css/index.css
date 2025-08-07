@@ -32,28 +32,33 @@ body{
 }
 .home{    
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 100px; 
       
 }
-.home-left{
-   width: 50vw;
-}
+
 .home-h{
+   
     font-size: 50px;
     color: #4006ff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home-heading{
+     text-align: center;
 }
 .home-p{
     color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .home-right{
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 50px;
+    align-content: center;
 }
 .home-img{
+    
     width: 300px;
     border: 3px solid rgb(247, 247, 247);
     border-radius: 500%;   
